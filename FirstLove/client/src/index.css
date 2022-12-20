@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*Start of the the css that I am adding*/
+/*This code is for the NavBar*/
+.navbar-title{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 500px
+}
+
+/**/
+.card{
+
+} 
