@@ -2,7 +2,7 @@ export default function NavBar(){
 
 
   return(
-    <div>
+    <div className="navbar">
       <h1 className="navbar-title">First Love</h1>
 
 

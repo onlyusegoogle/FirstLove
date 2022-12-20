@@ -1,10 +1,10 @@
 import Card from "./Card"
 
-export default function CardPage(){
+export default function CardPage() {
 
-  return(
-    <div className="cardpage">
-      <Card/> 
+  return (
+    <div style={{display: "flex", justifyContent: "center"}}>
+      <Card />
     </div>
-)
+  )
 }

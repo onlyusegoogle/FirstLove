@@ -11,16 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 /*Start of the the css that I am adding*/
 /*This code is for the NavBar*/
-.navbar-title{
-  margin-left: auto;
-  margin-right: auto;
+.navbar {
+  background-color: #646da5;
+  height: 7vw;
+  margin: top 0px;
+}
+
+.navbar-title {
+  margin: 0px auto 0px auto;
   text-align: center;
-  width: 500px
+  width: 500px;
+  padding-top: 1vw;
 }
 
 /**/
-.card{
 
-} 
+.cardpage {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .card {
+  width: 360px;
+} */
