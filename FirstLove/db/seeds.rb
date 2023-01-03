@@ -1,6 +1,6 @@
 puts "Seeding Users..."
 
-mason = User.create!(username:"mason", password:"123", firstname:"mason", lastname:"white", address:"123 Main Street", image:"https://images.halloweencostumes.com/products/43386/1-2/sexy-giraffe-womens-costume.jpg")
+mason = User.create!(username:"mason", password_digest:"123", firstname:"mason", lastname:"white", address:"123 Main Street", image:"https://images.halloweencostumes.com/products/43386/1-2/sexy-giraffe-womens-costume.jpg")
 
 puts "Done Seeding Users"
 

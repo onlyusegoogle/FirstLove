@@ -16,8 +16,10 @@ code {
 /*This code is for the NavBar*/
 .navbar {
   background-color: #646da5;
-  height: 7vw;
+  height: 5vw;
   margin: top 0px;
+  position: sticky;
+  top: 0vw;
 }
 
 .navbar-title {
